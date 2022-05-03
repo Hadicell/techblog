@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:techblog/gen/assets.gen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,20 +13,46 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      localizationsDelegates: const [
+        GlobalMaterialLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate,
+        GlobalCupertinoLocalizations.delegate,
+      ],
+      supportedLocales: const [
+        Locale('fa', ''), // farsi
+      ],
       theme: ThemeData(
-        // This is the theme of your application.
-        //
-        // Try running your application with "flutter run". You'll see the
-        // application has a blue toolbar. Then, without quitting the app, try
-        // changing the primarySwatch below to Colors.green and then invoke
-        // "hot reload" (press "r" in the console where you ran "flutter run",
-        // or simply save your changes to "hot reload" in a Flutter IDE).
-        // Notice that the counter didn't reset back to zero; the application
-        // is not restarted.
-        primarySwatch: Colors.blue,
-      ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+          fontFamily: 'dubai',
+          textTheme: const TextTheme(
+            headline1: TextStyle(
+                fontFamily: 'dubai',
+                color: Colors.amber,
+                fontWeight: FontWeight.w700,
+                fontSize: 14),
+            bodyText1: TextStyle(
+                fontFamily: 'dubai',
+                color: Colors.black12,
+                fontWeight: FontWeight.w300,
+                fontSize: 10),
+            headline2: TextStyle(
+                fontFamily: 'dubai',
+                color: Color.fromARGB(255, 148, 10, 31),
+                fontWeight: FontWeight.w700,
+                fontSize: 14),
+            headline3: TextStyle(
+                fontFamily: 'dubai',
+                color: Color.fromARGB(255, 173, 87, 100),
+                fontWeight: FontWeight.w700,
+                fontSize: 14),
+            headline4: TextStyle(
+                fontFamily: 'dubai',
+                color: Color.fromARGB(255, 70, 70, 70),
+                fontWeight: FontWeight.w700,
+                fontSize: 14),
+          )),
+      debugShowCheckedModeBanner: false,
+      title: 'Flutter Demo',
+      home: Scaffold(body: Center(child: Image(image: Assets.images.tac),)),
     );
   }
 }
