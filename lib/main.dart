@@ -1,9 +1,20 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:techblog/gen/assets.gen.dart';
+import 'package:techblog/my_colers.dart';
 import 'package:techblog/splash_screen.dart';
 
 void main() {
+
+SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
+statusBarColor: solidColors.statusBarColor,
+statusBarIconBrightness: Brightness.dark,
+systemNavigationBarColor: solidColors.systemNavigationBarColor,
+systemNavigationBarIconBrightness: Brightness.dark,
+));
+
+
   runApp(const MyApp());
 }
 
@@ -28,9 +39,16 @@ class MyApp extends StatelessWidget {
           textTheme: const TextTheme(
             headline1: TextStyle(
                 fontFamily: 'dubai',
-                color: Colors.amber,
+                color: solidColors.posterTitel,
                 fontWeight: FontWeight.w700,
-                fontSize: 14),
+                fontSize: 16),
+
+            subtitle1: TextStyle(
+                fontFamily: 'dubai',
+                color: solidColors.posterSubTitle,
+                fontWeight: FontWeight.w300,
+                fontSize: 16),
+
             bodyText1: TextStyle(
                 fontFamily: 'dubai',
                 color: Colors.black12,
