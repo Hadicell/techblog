@@ -47,7 +47,7 @@ class MyApp extends StatelessWidget {
                 fontFamily: 'dubai',
                 color: solidColors.posterSubTitle,
                 fontWeight: FontWeight.w300,
-                fontSize: 16),
+                fontSize: 15),
 
             bodyText1: TextStyle(
                 fontFamily: 'dubai',
@@ -56,9 +56,9 @@ class MyApp extends StatelessWidget {
                 fontSize: 10),
             headline2: TextStyle(
                 fontFamily: 'dubai',
-                color: Color.fromARGB(255, 148, 10, 31),
-                fontWeight: FontWeight.w700,
-                fontSize: 14),
+                color: Color.fromARGB(255, 255, 255, 255),
+                fontWeight: FontWeight.w300,
+                fontSize: 16),
             headline3: TextStyle(
                 fontFamily: 'dubai',
                 color: Color.fromARGB(255, 173, 87, 100),
