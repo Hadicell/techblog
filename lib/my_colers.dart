@@ -17,6 +17,7 @@ class solidColors {
   static const Color subText = Color.fromARGB(255, 197, 197, 197);
   static const Color statusBarColor = Color.fromARGB(255, 255, 255, 255);
   static const Color systemNavigationBarColor = Color.fromARGB(255, 255, 255, 255);
+  static const Color seeMore = Color.fromARGB(255, 40, 107, 184);
   
   
 }
@@ -35,5 +36,11 @@ class gradientColors {
     const Color.fromARGB(0, 0, 0, 0),
     const Color.fromARGB(192, 72, 20, 88),
     const Color.fromARGB(255, 28, 20, 81)
+  ];
+
+  static const List<Color> blogPost = [
+    const Color.fromARGB(255, 0, 0, 0),
+    const Color.fromARGB(0, 0, 0, 0)
+    
   ];
 }

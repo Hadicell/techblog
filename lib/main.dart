@@ -49,11 +49,18 @@ class MyApp extends StatelessWidget {
                 fontWeight: FontWeight.w300,
                 fontSize: 15),
 
+            subtitle2: TextStyle(
+                fontFamily: 'dubai',
+                color: solidColors.posterSubTitle,
+                fontWeight: FontWeight.w700,
+                fontSize: 15),
+                
+           
             bodyText1: TextStyle(
                 fontFamily: 'dubai',
                 color: Colors.black12,
-                fontWeight: FontWeight.w300,
-                fontSize: 10),
+                fontWeight: FontWeight.w700,
+                fontSize: 15),
             headline2: TextStyle(
                 fontFamily: 'dubai',
                 color: Color.fromARGB(255, 255, 255, 255),
@@ -61,7 +68,7 @@ class MyApp extends StatelessWidget {
                 fontSize: 16),
             headline3: TextStyle(
                 fontFamily: 'dubai',
-                color: Color.fromARGB(255, 173, 87, 100),
+                color: solidColors.seeMore,
                 fontWeight: FontWeight.w700,
                 fontSize: 14),
             headline4: TextStyle(
@@ -69,6 +76,12 @@ class MyApp extends StatelessWidget {
                 color: Color.fromARGB(255, 70, 70, 70),
                 fontWeight: FontWeight.w700,
                 fontSize: 14),
+            
+            headline5: TextStyle(
+                fontFamily: 'dubai',
+                color: Color.fromARGB(255, 0, 0, 0),
+                fontWeight: FontWeight.w700,
+                fontSize: 15),
           )),
       debugShowCheckedModeBanner: false,
       
