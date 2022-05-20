@@ -10,12 +10,24 @@ import 'package:flutter/widgets.dart';
 class $AssetsIconsGen {
   const $AssetsIconsGen();
 
+  /// File path: assets/icons/Podcast.png
+  AssetGenImage get podcast => const AssetGenImage('assets/icons/Podcast.png');
+
   /// File path: assets/icons/blue_pen.png
   AssetGenImage get bluePen => const AssetGenImage('assets/icons/blue_pen.png');
 
   /// File path: assets/icons/hashtagicon.png
   AssetGenImage get hashtagicon =>
       const AssetGenImage('assets/icons/hashtagicon.png');
+
+  /// File path: assets/icons/home.png
+  AssetGenImage get home => const AssetGenImage('assets/icons/home.png');
+
+  /// File path: assets/icons/user.png
+  AssetGenImage get user => const AssetGenImage('assets/icons/user.png');
+
+  /// File path: assets/icons/writer.png
+  AssetGenImage get writer => const AssetGenImage('assets/icons/writer.png');
 }
 
 class $AssetsImagesGen {

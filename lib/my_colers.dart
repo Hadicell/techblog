@@ -23,10 +23,17 @@ class solidColors {
 }
 
 class gradientColors {
-  static const List<Color> bottomNave = [
+  static const List<Color> bottomNav = [
     const Color.fromARGB(255, 25, 0, 94),
     const Color.fromARGB(255, 68, 4, 78)
   ];
+
+
+  static const List<Color> bottomNavBackgroand = [
+    const Color.fromARGB(0, 255, 255, 255),
+    const Color.fromARGB(255, 255, 255, 255)
+  ];
+
   static const List<Color> tags = [
     const Color.fromARGB(255, 0, 0, 0),
     const Color.fromARGB(255, 63, 63, 63)
