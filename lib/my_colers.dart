@@ -18,6 +18,7 @@ class solidColors {
   static const Color statusBarColor = Color.fromARGB(255, 255, 255, 255);
   static const Color systemNavigationBarColor = Color.fromARGB(255, 255, 255, 255);
   static const Color seeMore = Color.fromARGB(255, 40, 107, 184);
+  static const Color dividerColer = Color.fromARGB(255, 112, 112, 112);
   
   
 }

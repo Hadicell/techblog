@@ -3,7 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:techblog/gen/assets.gen.dart';
 import 'package:techblog/my_colers.dart';
-import 'package:techblog/splash_screen.dart';
+import 'package:techblog/view/splash_screen.dart';
 
 void main() {
 
