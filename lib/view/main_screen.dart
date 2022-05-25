@@ -8,7 +8,16 @@ import 'package:techblog/my_strings.dart';
 import 'package:techblog/view/home_screen.dart';
 import 'package:techblog/view/profile_screen.dart';
 
-class HomeScreen extends StatelessWidget {
+class HomeScreen extends StatefulWidget {
+  const HomeScreen({Key? key}) : super(key: key);
+
+  @override
+  State<HomeScreen> createState() => _HomeScreenState();
+}
+
+class _HomeScreenState extends State<HomeScreen> {
+  var selectedPageIndex = 0;
+
   @override
   Widget build(BuildContext context) {
     var textTheme = Theme.of(context).textTheme;
@@ -42,9 +51,27 @@ class HomeScreen extends StatelessWidget {
         ),
         body: Stack(
           children: [
-            Center(child: Positioned.fill(child: 
-            homeScreen(size: size, textTheme: textTheme, bodyMargin: bodyMargin))),
-            ButtomNavigation(size: size, bodyMargin: bodyMargin),
+            Center(
+              child: Positioned.fill(
+                  child: IndexedStack(
+                index: selectedPageIndex,
+                children: [
+                  homeScreen(
+                      size: size, textTheme: textTheme, bodyMargin: bodyMargin),
+                  profileScreen(
+                      size: size, textTheme: textTheme, bodyMargin: bodyMargin)
+                ],
+              )),
+            ),
+            ButtomNavigation(
+              size: size,
+              bodyMargin: bodyMargin,
+              changeScreen: (int value) {
+                setState(() {
+                  selectedPageIndex = value;
+                });
+              },
+            ),
           ],
         ),
       ),
@@ -57,10 +84,12 @@ class ButtomNavigation extends StatelessWidget {
     Key? key,
     required this.size,
     required this.bodyMargin,
+    required this.changeScreen,
   }) : super(key: key);
 
   final Size size;
   final double bodyMargin;
+  final Function(int) changeScreen;
 
   @override
   Widget build(BuildContext context) {
@@ -82,13 +111,12 @@ class ButtomNavigation extends StatelessWidget {
             height: size.height / 8,
             decoration: const BoxDecoration(
                 borderRadius: BorderRadius.all(Radius.circular(18)),
-                gradient:
-                    LinearGradient(colors: gradientColors.bottomNav)),
+                gradient: LinearGradient(colors: gradientColors.bottomNav)),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
                 IconButton(
-                    onPressed: (() {}),
+                    onPressed: (() => changeScreen(0)),
                     icon: ImageIcon(
                       Assets.icons.home,
                       color: Colors.white,
@@ -100,7 +128,7 @@ class ButtomNavigation extends StatelessWidget {
                       color: Colors.white,
                     )),
                 IconButton(
-                    onPressed: (() {}),
+                    onPressed: (() => changeScreen(1)),
                     icon: ImageIcon(
                       Assets.icons.user,
                       color: Colors.white,
@@ -113,4 +141,3 @@ class ButtomNavigation extends StatelessWidget {
     );
   }
 }
-
