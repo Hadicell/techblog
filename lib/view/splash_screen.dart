@@ -1,21 +1,23 @@
-import 'package:flutter/cupertino.dart';
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:techblog/gen/assets.gen.dart';
 import 'package:techblog/view/main_screen.dart';
 import 'package:techblog/my_colers.dart';
 
-class splashScreen extends StatefulWidget {
+// ignore: use_key_in_widget_constructors
+class SplashScreen extends StatefulWidget {
   @override
-  State<splashScreen> createState() => _splashScreenState();
+  State<SplashScreen> createState() => _SplashScreenState();
 }
 
-class _splashScreenState extends State<splashScreen> {
+class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     Future.delayed(const Duration(seconds: 4)).then((value) {
       Navigator.of(context).pushReplacement(
-          MaterialPageRoute(builder: (context) => HomeScreen()));
+          MaterialPageRoute(builder: (context) => MainScreen()));
     });
 
     super.initState();
@@ -23,6 +25,7 @@ class _splashScreenState extends State<splashScreen> {
 
   @override
   Widget build(BuildContext context) {
+    // ignore: todo
     // TODO: implement build
     return SafeArea(
       child: Scaffold(
@@ -33,7 +36,7 @@ class _splashScreenState extends State<splashScreen> {
               height: 32,
             ),
             const SpinKitThreeBounce(
-              color: solidColors.prymaryColor,
+              color: SolidColors.prymaryColor,
               size: 32.0,
             )
           ]),
