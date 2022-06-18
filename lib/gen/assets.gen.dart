@@ -18,6 +18,9 @@ class $AssetsIconsGen {
   /// File path: assets/icons/Podcast.png
   AssetGenImage get podcast => const AssetGenImage('assets/icons/Podcast.png');
 
+  /// File path: assets/icons/TV.png
+  AssetGenImage get tv => const AssetGenImage('assets/icons/TV.png');
+
   /// File path: assets/icons/blue_pen.png
   AssetGenImage get bluePen => const AssetGenImage('assets/icons/blue_pen.png');
 
@@ -27,6 +30,9 @@ class $AssetsIconsGen {
 
   /// File path: assets/icons/home.png
   AssetGenImage get home => const AssetGenImage('assets/icons/home.png');
+
+  /// File path: assets/icons/tv1.png
+  AssetGenImage get tv1 => const AssetGenImage('assets/icons/tv1.png');
 
   /// File path: assets/icons/user.png
   AssetGenImage get user => const AssetGenImage('assets/icons/user.png');
@@ -38,18 +44,71 @@ class $AssetsIconsGen {
 class $AssetsImagesGen {
   const $AssetsImagesGen();
 
+  /// File path: assets/images/Anten.svg
+  SvgGenImage get anten => const SvgGenImage('assets/images/Anten.svg');
+
   /// File path: assets/images/avatar.png
   AssetGenImage get avatar => const AssetGenImage('assets/images/avatar.png');
+
+  /// File path: assets/images/book.png
+  AssetGenImage get book => const AssetGenImage('assets/images/book.png');
+
+  /// File path: assets/images/daaa.png
+  AssetGenImage get daaa => const AssetGenImage('assets/images/daaa.png');
+
+  /// File path: assets/images/ifilm.png
+  AssetGenImage get ifilm => const AssetGenImage('assets/images/ifilm.png');
+
+  /// File path: assets/images/mostanad.png
+  AssetGenImage get mostanad =>
+      const AssetGenImage('assets/images/mostanad.png');
+
+  /// File path: assets/images/namayesh.png
+  AssetGenImage get namayesh =>
+      const AssetGenImage('assets/images/namayesh.png');
+
+  /// File path: assets/images/nasim.png
+  AssetGenImage get nasim => const AssetGenImage('assets/images/nasim.png');
+
+  /// File path: assets/images/pooya.png
+  AssetGenImage get pooya => const AssetGenImage('assets/images/pooya.png');
 
   /// File path: assets/images/posterTest.png
   AssetGenImage get posterTest =>
       const AssetGenImage('assets/images/posterTest.png');
 
+  /// File path: assets/images/radio.png
+  AssetGenImage get radio => const AssetGenImage('assets/images/radio.png');
+
   /// File path: assets/images/tac.png
   AssetGenImage get tac => const AssetGenImage('assets/images/tac.png');
 
+  /// File path: assets/images/tamasha.png
+  AssetGenImage get tamasha => const AssetGenImage('assets/images/tamasha.png');
+
   /// File path: assets/images/techbot.svg
   SvgGenImage get techbot => const SvgGenImage('assets/images/techbot.svg');
+
+  /// File path: assets/images/tv1.png
+  AssetGenImage get tv1 => const AssetGenImage('assets/images/tv1.png');
+
+  /// File path: assets/images/tv2.png
+  AssetGenImage get tv2 => const AssetGenImage('assets/images/tv2.png');
+
+  /// File path: assets/images/tv3.png
+  AssetGenImage get tv3 => const AssetGenImage('assets/images/tv3.png');
+
+  /// File path: assets/images/tv4.png
+  AssetGenImage get tv4 => const AssetGenImage('assets/images/tv4.png');
+
+  /// File path: assets/images/tv5.png
+  AssetGenImage get tv5 => const AssetGenImage('assets/images/tv5.png');
+
+  /// File path: assets/images/tv_app.png
+  AssetGenImage get tvApp => const AssetGenImage('assets/images/tv_app.png');
+
+  /// File path: assets/images/varzesh.png
+  AssetGenImage get varzesh => const AssetGenImage('assets/images/varzesh.png');
 }
 
 class Assets {

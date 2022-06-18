@@ -53,3 +53,19 @@ class PodcastModel {
   });
   
 }
+
+
+// کلاس برای تلویزیون
+class Channel{
+  String ? icon;
+  String ? link;
+  Channel({this.icon, this.link});
+}
+
+
+// کلاس یرای مدیا
+class Media{
+  String ? icon;
+
+  Media({this.icon,});
+}
