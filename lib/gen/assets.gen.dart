@@ -28,8 +28,14 @@ class $AssetsIconsGen {
   AssetGenImage get hashtagicon =>
       const AssetGenImage('assets/icons/hashtagicon.png');
 
+  /// File path: assets/icons/hedset.png
+  AssetGenImage get hedset => const AssetGenImage('assets/icons/hedset.png');
+
   /// File path: assets/icons/home.png
   AssetGenImage get home => const AssetGenImage('assets/icons/home.png');
+
+  /// File path: assets/icons/liner.png
+  AssetGenImage get liner => const AssetGenImage('assets/icons/liner.png');
 
   /// File path: assets/icons/tv1.png
   AssetGenImage get tv1 => const AssetGenImage('assets/icons/tv1.png');
@@ -53,9 +59,6 @@ class $AssetsImagesGen {
   /// File path: assets/images/book.png
   AssetGenImage get book => const AssetGenImage('assets/images/book.png');
 
-  /// File path: assets/images/daaa.png
-  AssetGenImage get daaa => const AssetGenImage('assets/images/daaa.png');
-
   /// File path: assets/images/ifilm.png
   AssetGenImage get ifilm => const AssetGenImage('assets/images/ifilm.png');
 
@@ -77,8 +80,111 @@ class $AssetsImagesGen {
   AssetGenImage get posterTest =>
       const AssetGenImage('assets/images/posterTest.png');
 
+  /// File path: assets/images/r-varzesh.png
+  AssetGenImage get rVarzesh =>
+      const AssetGenImage('assets/images/r-varzesh.png');
+
+  /// File path: assets/images/r_ava.png
+  AssetGenImage get rAva => const AssetGenImage('assets/images/r_ava.png');
+
+  /// File path: assets/images/r_eghtesad.png
+  AssetGenImage get rEghtesad =>
+      const AssetGenImage('assets/images/r_eghtesad.png');
+
+  /// File path: assets/images/r_farhang.png
+  AssetGenImage get rFarhang =>
+      const AssetGenImage('assets/images/r_farhang.png');
+
+  /// File path: assets/images/r_goftego.png
+  AssetGenImage get rGoftego =>
+      const AssetGenImage('assets/images/r_goftego.png');
+
+  /// File path: assets/images/r_iran.png
+  AssetGenImage get rIran => const AssetGenImage('assets/images/r_iran.png');
+
+  /// File path: assets/images/r_javan.png
+  AssetGenImage get rJavan => const AssetGenImage('assets/images/r_javan.png');
+
+  /// File path: assets/images/r_namayesh.png
+  AssetGenImage get rNamayesh =>
+      const AssetGenImage('assets/images/r_namayesh.png');
+
+  /// File path: assets/images/r_payam.jpg
+  AssetGenImage get rPayam => const AssetGenImage('assets/images/r_payam.jpg');
+
+  /// File path: assets/images/r_saba.png
+  AssetGenImage get rSaba => const AssetGenImage('assets/images/r_saba.png');
+
+  /// File path: assets/images/r_salamat.png
+  AssetGenImage get rSalamat =>
+      const AssetGenImage('assets/images/r_salamat.png');
+
+  /// File path: assets/images/r_talavat.png
+  AssetGenImage get rTalavat =>
+      const AssetGenImage('assets/images/r_talavat.png');
+
+  /// File path: assets/images/r_tehran.png
+  AssetGenImage get rTehran =>
+      const AssetGenImage('assets/images/r_tehran.png');
+
+  /// File path: assets/images/radio-avaa.png
+  AssetGenImage get radioAvaa =>
+      const AssetGenImage('assets/images/radio-avaa.png');
+
+  /// File path: assets/images/radio-eghtesad.png
+  AssetGenImage get radioEghtesad =>
+      const AssetGenImage('assets/images/radio-eghtesad.png');
+
+  /// File path: assets/images/radio-farhang.png
+  AssetGenImage get radioFarhang =>
+      const AssetGenImage('assets/images/radio-farhang.png');
+
+  /// File path: assets/images/radio-goftego.png
+  AssetGenImage get radioGoftego =>
+      const AssetGenImage('assets/images/radio-goftego.png');
+
+  /// File path: assets/images/radio-iran.png
+  AssetGenImage get radioIran =>
+      const AssetGenImage('assets/images/radio-iran.png');
+
+  /// File path: assets/images/radio-javan.png
+  AssetGenImage get radioJavan =>
+      const AssetGenImage('assets/images/radio-javan.png');
+
+  /// File path: assets/images/radio-namayesh.png
+  AssetGenImage get radioNamayesh =>
+      const AssetGenImage('assets/images/radio-namayesh.png');
+
+  /// File path: assets/images/radio-payam.png
+  AssetGenImage get radioPayam =>
+      const AssetGenImage('assets/images/radio-payam.png');
+
+  /// File path: assets/images/radio-saba.png
+  AssetGenImage get radioSaba =>
+      const AssetGenImage('assets/images/radio-saba.png');
+
+  /// File path: assets/images/radio-salamat.png
+  AssetGenImage get radioSalamat =>
+      const AssetGenImage('assets/images/radio-salamat.png');
+
+  /// File path: assets/images/radio-talavat.png
+  AssetGenImage get radioTalavat =>
+      const AssetGenImage('assets/images/radio-talavat.png');
+
+  /// File path: assets/images/radio-tehran.png
+  AssetGenImage get radioTehran =>
+      const AssetGenImage('assets/images/radio-tehran.png');
+
+  /// File path: assets/images/radio-varzesh.png
+  AssetGenImage get radioVarzesh =>
+      const AssetGenImage('assets/images/radio-varzesh.png');
+
   /// File path: assets/images/radio.png
   AssetGenImage get radio => const AssetGenImage('assets/images/radio.png');
+
+  /// File path: assets/images/radio_online.jpg
+  AssetGenImage get radioOnline =>
+      const AssetGenImage('assets/images/radio_online.jpg');
 
   /// File path: assets/images/tac.png
   AssetGenImage get tac => const AssetGenImage('assets/images/tac.png');
@@ -106,6 +212,10 @@ class $AssetsImagesGen {
 
   /// File path: assets/images/tv_app.png
   AssetGenImage get tvApp => const AssetGenImage('assets/images/tv_app.png');
+
+  /// File path: assets/images/tv_online.jpg
+  AssetGenImage get tvOnline =>
+      const AssetGenImage('assets/images/tv_online.jpg');
 
   /// File path: assets/images/varzesh.png
   AssetGenImage get varzesh => const AssetGenImage('assets/images/varzesh.png');

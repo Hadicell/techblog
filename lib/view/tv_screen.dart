@@ -21,57 +21,6 @@ class _TvScreenState extends State<TvScreen> {
   var selectedPageIndex = 0;
   final VideoViewerController controller = VideoViewerController();
 
-  List<Channel> listchannels = [
-    Channel(
-      icon: "assets/images/tv1.png",
-      link: "https://cdn.telewebion.com/tv1/live/720p/index.m3u8",
-    ),
-    Channel(
-      icon: "assets/images/tv2.png",
-      link: "https://cdn.telewebion.com/tv2/live/576p/index.m3u8",
-    ),
-    Channel(
-      icon: "assets/images/tv3.png",
-      link: "https://cdn.telewebion.com/tv3/live/720p/index.m3u8",
-    ),
-    Channel(
-      icon: "assets/images/tv4.png",
-      link: "https://cdn.telewebion.com/tv4/live/576p/index.m3u8",
-    ),
-    Channel(
-      icon: "assets/images/tv5.png",
-      link: "https://cdn.telewebion.com/tehran/live/576p/index.m3u8",
-    ),
-    Channel(
-      icon: "assets/images/varzesh.png",
-      link: "https://cdn.telewebion.com/varzesh/live/720p/index.m3u8",
-    ),
-    Channel(
-      icon: "assets/images/nasim.png",
-      link: "https://cdn.telewebion.com/nasim/live/720p/index.m3u8",
-    ),
-    Channel(
-      icon: "assets/images/tamasha.png",
-      link: "https://cdn.telewebion.com/hdtest/live/720p/index.m3u8",
-    ),
-    Channel(
-      icon: "assets/images/ifilm.png",
-      link: "https://cdn.telewebion.com/ifilm/live/720p/index.m3u8",
-    ),
-    Channel(
-      icon: "assets/images/namayesh.png",
-      link: "https://cdn.telewebion.com/namayesh/live/720p/index.m3u8",
-    ),
-    Channel(
-      icon: "assets/images/mostanad.png",
-      link: "https://cdn.telewebion.com/mostanad/live/480p/index.m3u8",
-    ),
-    Channel(
-      icon: "assets/images/pooya.png",
-      link: "https://cdn.telewebion.com/pooya/live/720p/index.m3u8",
-    ),
-  ];
-
   @override
   Widget build(BuildContext context) {
     var textTheme = Theme.of(context).textTheme;
@@ -175,7 +124,18 @@ class _TvScreenState extends State<TvScreen> {
                     const SizedBox(
                       height: 20,
                     ),
-                    Text("پخش زنده شبکه های ایران", style: textTheme.headline4),
+                    Row(
+                      children: [
+                        Image.asset(
+                          Assets.icons.tv1.path,
+                        ),
+                        const SizedBox(
+                          width: 10,
+                        ),
+                        Text("پخش زنده شبکه های ایران",
+                            style: textTheme.headline4),
+                      ],
+                    ),
                     const SizedBox(
                       height: 16,
                     ),
@@ -208,33 +168,30 @@ class _TvScreenState extends State<TvScreen> {
                                     });
                                   });
                                 },
-                                
                                 child: Card(
                                   elevation: 5,
                                   color: const Color.fromARGB(255, 75, 13, 90),
                                   shape: RoundedRectangleBorder(
                                     borderRadius: BorderRadius.circular(35),
                                   ),
-                                  
                                   child: Center(
                                     child: Image.asset(
                                       listchannels[index].icon!,
                                       width: 75,
                                     ),
-                                    
                                   ),
                                 ),
-                                
                               ),
                             );
                           }),
                     ),
-                    const SizedBox(height: 36,)
+                    const SizedBox(
+                      height: 36,
+                    )
                   ],
                 ),
               ),
             ),
-
           ],
         ),
       ),

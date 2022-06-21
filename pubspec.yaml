@@ -39,6 +39,8 @@ dependencies:
   flutter_svg: ^1.0.3
   validators: ^3.0.0
   video_viewer: ^1.2.7
+  just_audio: ^0.9.24
+
 
 dev_dependencies:
   flutter_test:

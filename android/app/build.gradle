@@ -48,6 +48,7 @@ android {
         targetSdkVersion flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
+         multiDexEnabled true
     }
 
     buildTypes {
@@ -65,4 +66,6 @@ flutter {
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+     compile 'com.android.support:multidex:1.0.3' 
+  //find latest version from here https://developer.android.com/studio/build/multidex
 }
