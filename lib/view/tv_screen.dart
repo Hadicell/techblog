@@ -111,6 +111,7 @@ class _TvScreenState extends State<TvScreen> {
                         style: VideoViewerStyle(
                             loading: const CircularProgressIndicator(
                           color: Colors.black,
+                          
                         )),
                         autoPlay: true,
                         source: {

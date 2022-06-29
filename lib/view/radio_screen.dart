@@ -58,18 +58,24 @@ class _RadioScreenState extends State<RadioScreen> {
                   return Padding(
                     padding: const EdgeInsets.all(2.0),
                     child: GestureDetector(
-                      
                       onTap: () {
+
                         setState(() {
                           selectedPageIndex = index;
                           player.setUrl(listradio[index].url!);
-                          player.play();
+                          player.play();    
+   
+
                           for (var element in listradio) {
                             element.isPlay = false;
+
                           }
+                           
                           listradio[index].isPlay = true;
                         });
+
                       },
+                      
                       child: Card(
                         elevation: 10,
                         color: const Color.fromARGB(255, 75, 13, 90),

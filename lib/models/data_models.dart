@@ -129,6 +129,11 @@ MyMedia(
   title: "رادیو آنلاین",
   image:"assets/images/radio_online.jpg"
 ),
+MyMedia(
+  name: "Concert",
+  title: "خرید بلیط کنسرت",
+  image:"assets/images/concert-Top.jpg"
+),
 ];
 
 
@@ -143,6 +148,7 @@ class MyRadio{
 }
 
 List<MyRadio> listradio = [
+
 
 MyRadio(
   name: "ava",
@@ -222,5 +228,20 @@ MyRadio(
   image: "assets/images/r_namayesh.png",
   url: "http://altcdn.iranseda.ir:1935/channel-live/smil:r-namayesh/chunklist_b307200_slFa.m3u8",
 ),
+
+];
+
+
+class MymusicConcert{
+  String ? url;
+  bool isPlay = true;
+  MymusicConcert({this.url});
+}
+
+List<MymusicConcert> listconcert =[
+
+MymusicConcert(
+  url: "https://irsv.upmusics.com/Downloads/Musics/Mohsen%20Yeganeh%7C%20Havai%20Shodi%20(128).mp3"
+)
 
 ];

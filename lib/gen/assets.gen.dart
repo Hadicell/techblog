@@ -21,6 +21,9 @@ class $AssetsIconsGen {
   /// File path: assets/icons/TV.png
   AssetGenImage get tv => const AssetGenImage('assets/icons/TV.png');
 
+  /// File path: assets/icons/blit.png
+  AssetGenImage get blit => const AssetGenImage('assets/icons/blit.png');
+
   /// File path: assets/icons/blue_pen.png
   AssetGenImage get bluePen => const AssetGenImage('assets/icons/blue_pen.png');
 
@@ -61,6 +64,10 @@ class $AssetsImagesGen {
 
   /// File path: assets/images/ifilm.png
   AssetGenImage get ifilm => const AssetGenImage('assets/images/ifilm.png');
+
+  /// File path: assets/images/mohsen y.jpg
+  AssetGenImage get mohsenY =>
+      const AssetGenImage('assets/images/mohsen y.jpg');
 
   /// File path: assets/images/mostanad.png
   AssetGenImage get mostanad =>

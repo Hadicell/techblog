@@ -5,6 +5,7 @@ import 'package:techblog/gen/assets.gen.dart';
 import 'package:techblog/models/data_models.dart';
 import 'package:techblog/my_colers.dart';
 import 'package:techblog/my_strings.dart';
+import 'package:techblog/view/concert_screen.dart';
 import 'package:techblog/view/radio_screen.dart';
 import 'package:techblog/view/register_intro.dart';
 import 'package:techblog/view/tv_screen.dart';
@@ -68,13 +69,13 @@ class _MediaScreenState extends State<MediaScreen> {
                                       builder: (context) => RadioScreen()));
                               break;
 
-                            // case "book"  :
-                            //    Navigator.push(
-                            //   context,
-                            //   MaterialPageRoute(
-                            //       builder: (context) =>
-                            //         RegisterIntor()));
-                            //           break;
+                            case "Concert"  :
+                               Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => ConcertScreen()
+                                   ));
+                                      break;
 
                           }
                         },
