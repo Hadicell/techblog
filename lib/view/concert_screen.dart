@@ -1,10 +1,9 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:just_audio/just_audio.dart';
+import 'package:techblog/component/my_colers.dart';
 import 'package:techblog/gen/assets.gen.dart';
 import 'package:techblog/models/data_models.dart';
-import 'package:techblog/my_colers.dart';
-import 'package:video_viewer/video_viewer.dart';
+
 
 class ConcertScreen extends StatefulWidget {
   const ConcertScreen({Key? key}) : super(key: key);

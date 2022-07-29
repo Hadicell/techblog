@@ -1,11 +1,7 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:techblog/component/my_colers.dart';
 import 'package:techblog/models/data_models.dart';
-import 'package:techblog/my_colers.dart';
-import 'package:techblog/view/main_screen.dart';
-import 'package:video_viewer/domain/bloc/controller.dart';
 import 'package:video_viewer/video_viewer.dart';
-
 import '../gen/assets.gen.dart';
 
 class TvScreen extends StatefulWidget {
@@ -111,7 +107,6 @@ class _TvScreenState extends State<TvScreen> {
                         style: VideoViewerStyle(
                             loading: const CircularProgressIndicator(
                           color: Colors.black,
-                          
                         )),
                         autoPlay: true,
                         source: {

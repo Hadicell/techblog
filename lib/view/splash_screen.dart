@@ -1,10 +1,9 @@
-// ignore_for_file: prefer_const_constructors
-
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
+import 'package:techblog/component/my_colers.dart';
 import 'package:techblog/gen/assets.gen.dart';
 import 'package:techblog/view/main_screen.dart';
-import 'package:techblog/my_colers.dart';
+
 
 // ignore: use_key_in_widget_constructors
 class SplashScreen extends StatefulWidget {

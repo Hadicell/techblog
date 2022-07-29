@@ -1,10 +1,7 @@
-// ignore_for_file: unused_local_variable
-
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:techblog/component/my_strings.dart';
 import 'package:techblog/gen/assets.gen.dart';
-import 'package:techblog/my_colers.dart';
-import 'package:techblog/my_strings.dart';
 import 'package:techblog/view/my_cats.dart';
 import 'package:validators/validators.dart';
 

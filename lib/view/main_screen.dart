@@ -1,13 +1,9 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:techblog/component/my_colers.dart';
 import 'package:techblog/gen/assets.gen.dart';
-import 'package:techblog/models/data_models.dart';
-import 'package:techblog/my_colers.dart';
-import 'package:techblog/my_componet.dart';
 import 'package:techblog/view/home_screen.dart';
 import 'package:techblog/view/profile_screen.dart';
 import 'package:techblog/view/register_intro.dart';
-import 'package:techblog/view/tv_screen.dart';
 import 'package:techblog/view/my_media.dart';
 
 class MainScreen extends StatefulWidget {

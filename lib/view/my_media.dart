@@ -1,13 +1,10 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
+import 'package:techblog/component/my_colers.dart';
+import 'package:techblog/component/my_strings.dart';
 import 'package:techblog/gen/assets.gen.dart';
 import 'package:techblog/models/data_models.dart';
-import 'package:techblog/my_colers.dart';
-import 'package:techblog/my_strings.dart';
 import 'package:techblog/view/concert_screen.dart';
 import 'package:techblog/view/radio_screen.dart';
-import 'package:techblog/view/register_intro.dart';
 import 'package:techblog/view/tv_screen.dart';
 
 class MediaScreen extends StatefulWidget {

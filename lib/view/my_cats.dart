@@ -1,11 +1,12 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:techblog/component/my_colers.dart';
+import 'package:techblog/component/my_componet.dart';
+import 'package:techblog/component/my_strings.dart';
 import 'package:techblog/gen/assets.gen.dart';
 import 'package:techblog/models/fake_data.dart';
-import 'package:techblog/my_colers.dart';
-import 'package:techblog/my_componet.dart';
-import 'package:techblog/my_strings.dart';
+
 
 class MyCats extends StatefulWidget {
   @override
